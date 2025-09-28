@@ -1,0 +1,8 @@
+services:
+  sftp:
+    image: atmoz/sftp
+    ports:
+      - "22:22"
+    volumes:
+      - ./upload:/home/userAdmin/upload
+    command: userAdmin:admin:::upload

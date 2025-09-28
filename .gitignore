@@ -1,0 +1,13 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Directories
+/vendor/
+
+# Editor/IDE
+/.idea/
+/.vscode/
